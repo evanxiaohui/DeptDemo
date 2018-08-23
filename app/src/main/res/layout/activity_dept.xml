@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+    
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+
+    <HorizontalScrollView
+        android:id="@+id/hsv_nav"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll_dept_nav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"/>
+
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/dept_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F3F5F7"
+        android:paddingTop="10dp"/>
+
+</LinearLayout>

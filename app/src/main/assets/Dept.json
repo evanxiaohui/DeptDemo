@@ -1,0 +1,176 @@
+{
+  "data": {
+    "id": 1,
+    "cname": "深圳市测试科技有限公司",
+    "departmentList": [
+      {
+        "id": 181008,
+        "deptName": "技术部门",
+        "pid": null,
+        "cid": 1,
+        "cname": null,
+        "creator": 23,
+        "listUser": ["技术老大"],
+        "childDepartment": [
+          {
+            "id": 181001,
+            "deptName": "研发部",
+            "pid": 181008,
+            "cid": 1,
+            "cname": null,
+            "creator": 16,
+            "childDepartment": null,
+            "listUser": [
+              "研发0",
+              "研发1",
+              "研发2",
+              "研发3",
+              "研发4",
+              "研发5",
+              "研发6",
+              "研发7",
+              "研发8",
+              "研发9",
+              "研发10",
+              "研发11",
+              "研发12",
+              "研发13",
+              "研发14",
+              "研发15"
+            ]
+          },
+          {
+            "id": 181016,
+            "deptName": "测试部",
+            "pid": 181008,
+            "cid": 1,
+            "cname": null,
+            "creator": 6,
+            "childDepartment": [
+              {
+                "id": 181186,
+                "deptName": "子测试",
+                "pid": 181016,
+                "cid": 1,
+                "cname": null,
+                "creator": 1,
+                "childDepartment": null,
+                "listUser": [
+                  "子测试0"
+                ]
+              }
+            ],
+            "listUser": [
+              "测试0",
+              "测试1",
+              "测试2",
+              "测试3",
+              "测试4"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 181019,
+        "deptName": "销售部",
+        "pid": null,
+        "cid": 1,
+        "cname": null,
+        "creator": 4,
+        "listUser": [
+          "销售老大"
+        ],
+        "childDepartment": [
+          {
+            "id": 181020,
+            "deptName": "南方销售部",
+            "pid": 181019,
+            "cid": 1,
+            "cname": null,
+            "creator": 2,
+            "childDepartment": null,
+            "listUser": [
+              "南方销售部0",
+              "南方销售部1"
+            ]
+          },
+          {
+            "id": 181142,
+            "deptName": "北方销售部",
+            "pid": 181019,
+            "cid": 1,
+            "cname": null,
+            "creator": 1,
+            "childDepartment": null,
+            "listUser": [
+              "北方销售部0"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 181075,
+        "deptName": "产品部",
+        "pid": null,
+        "cid": 1,
+        "cname": null,
+        "creator": 5,
+        "childDepartment": null,
+        "listUser": [
+          "产品部0",
+          "产品部1",
+          "产品部2",
+          "产品部3",
+          "产品部4"
+        ]
+      },
+      {
+        "id": 181141,
+        "deptName": "运营部",
+        "pid": null,
+        "cid": 1,
+        "cname": null,
+        "creator": 7,
+        "childDepartment": null,
+        "listUser": [
+          "运营部0",
+          "运营部1",
+          "运营部2",
+          "运营部3",
+          "运营部4",
+          "运营部5",
+          "运营部6"
+        ]
+      },
+      {
+        "id": 181145,
+        "deptName": "合作部",
+        "pid": null,
+        "cid": 1,
+        "cname": null,
+        "creator": 1,
+        "childDepartment": null,
+        "listUser": [
+          "合作部0"
+        ]
+      },
+      {
+        "id": 181147,
+        "deptName": "财务部",
+        "pid": null,
+        "cid": 1,
+        "cname": null,
+        "creator": 3,
+        "childDepartment": null,
+        "listUser": [
+          "财务部0",
+          "财务部1",
+          "财务部2"
+        ]
+      }
+    ]
+  },
+  "responseCode": "0000",
+  "isSuccess": true,
+  "responseMsg": "ok"
+}
